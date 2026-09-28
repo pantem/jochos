@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Control de Pedidos - Hamburguesas & Hot Dogs</title>
 
     <!-- Tailwind CSS CDN -->
@@ -421,7 +424,6 @@
                 const groupTitle = document.createElement('h4');
                 groupTitle.className = 'text-xs font-bold uppercase tracking-wider text-amber-400/90';
                 groupTitle.innerText = group.name;
-                groupEl.appendChild(groupTitle);
 
                 const itemsBox = document.createElement('div');
                 itemsBox.className = 'bg-slate-800/60 rounded-2xl p-2 border border-slate-700/50 divide-y divide-slate-700/40';
